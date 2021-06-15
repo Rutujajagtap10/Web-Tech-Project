@@ -1,0 +1,41 @@
+body {
+    margin: 100;
+    padding: 300px 500px;
+    font-weight: Century Gothic;
+    background: url("green.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    height: 75vh;
+    width: 30%;
+    background: rgba(179, 176, 176, 0.6);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.img {
+    height: 70px;
+    width: 70px;
+    background: url("women.jpg")no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50px;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container h1 {
+    color: cornsilk;
+    margin-top: 50px;
+}
+
+.container h2 {
+    color: cornsilk;
+    margin-top: 50px;
+}
